@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: Resume
 title: Saidafzal Saydivaliev's CV
 ---
 # Saidafzal Saydivaliev
