@@ -1,6 +1,6 @@
 ---
 layout: Resume
-title: Saidafzal Saydivaliev's CV
+title: Saidafzal's CV
 ---
 # Saidafzal Saydivaliev
 Front-end developer, IUT Student.
