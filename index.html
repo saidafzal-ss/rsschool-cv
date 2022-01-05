@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">s
+
+            <nav class="header__nav">
+                <ul class="header_item">
+                    <li><a href="#main">Main</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-style">Code-style</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div id="main" class="header_content">
+                <h1 class="header__titel">My resume</h1>
+                <a href="tel:+998974318577" class="header__link"> call me </a>
+                <a href="mailto:saidafzalsaydivaliyev@gmail.com" class="nav__link">e-mail</a>
+            </div>
+
+        </header>
+    </div>
+    <main class="main">
+        <div class="container">
+            <h2 class="main__titel">about me</h2>
+            <p class="main__descr">My name is Saidafzalkhon. My surname is Saydivaliev. I am 18. I was born in 2003 in Uzbekistan. I live in Tashkent. My address District- Chilonzor, the street is Yakkabog, 8-flat. I study at IUT university. My facultety is IT. My dream is
+                start-up own business company like "Amazon"</p>
+
+            <h2 class="main__titel">education</h2>
+            <div class="container">
+                <div id="education" class="cards">
+                    <div class="cards__item">
+                        <h3 class="cards__title">School</h3>
+                        <img src="ictschool2.jpg" alt="HTML">
+                        <p class="cards_descr">
+                            Muhammad al-Khwarizmi
+                        </p>
+                        <a href="#" class="cards__link">top</a>
+                    </div>
+                    <div class="cards__item">
+                        <h3 class="cards__title">University</h3>
+                        <img src="inha2.jpg" alt="CSS">
+                        <p class="cards_descr">
+                            INHA University in Tashkent
+                        </p>
+                        <a href="#" class="cards__link">top</a>
+                    </div>
+                    <div class="cards__item">
+                        <h3 class="cards__title">IUT</h3>
+                        <img src="inha.jpg" alt="JavaC">
+                        <p class="cards_descr">
+                            IUT
+                        </p>
+                        <a href="#" class="cards__link">top</a>
+                    </div>
+                </div>
+            </div>
+
+            <section id="skills">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills__box">
+                        <ul class="skills__ul">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>English</li>
+                            <li>Russian</li>
+                            <li>Uzbek</li>
+                        </ul>
+                        <ul class="skills__ul1">
+                            <li> * * *</li>
+                            <li> * *</li>
+                            <li> *</li>
+                            <li> * * * * *(B2)</li>
+                            <li> * *</li>
+                            <li> * * * * * * *</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="code-style">
+                <div class="container">
+                    <h2>
+                        Code-Style
+                    </h2>
+                    <div class="code_style_box">
+
+                        <pre>
+                        function updateLight(current) {
+                            switch(current){
+                                case "green": return "yellow";
+                                case "yellow": return "red";
+                                case "red": return "green";
+                            }
+                        }
+                    </pre>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacts">
+                <div class="container">
+                    <h2>
+                        Contacts
+                    </h2>
+                    <div class="contacts_box">
+                        <textarea name="form" id="form" cols="30" rows="10" placeholder="message"></textarea>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="E-mail">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://github.com/saidafzal-ss" class="main-text" id="github"><img src="./github.jpg" alt="github logo" id="github-logo"></a>
+            <a href="#">2022</a>
+            <a href="https://rs.school/js-stage0/"><img src="./rsschool.jpg" alt="rs school logo" id="rs-logo"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
