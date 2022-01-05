@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: url(me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.header_item li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header_content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.header__titel {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.header__link {
+    display: block;
+    padding: 10px 35px;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.main__titel {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.main__descr {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main__link {
+    background: #000;
+    color: #fff;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards__item img {
+    width: 100%;
+}
+
+.cards__item {
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+}
+
+.cards__title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cards_descr {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cards__link {
+    display: block;
+    padding: 5px 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+}
+
+#code-style {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.code_style_box {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 40px 0 40px 40px;
+    margin: 30px auto;
+    width: 600px;
+    background-color: #363638;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 16px 16px 16px 0px;
+}
+
+.code_style_box pre {
+    color: white;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts_box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+textarea,
+input {
+    margin: 10px;
+}
+
+input {
+    padding: 15px;
+}
+
+button {
+    width: 50px;
+}
+
+.footer {
+    background: #000;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    display: block;
+    margin: 0 15px;
+}
+
+.footer {
+    background: #000;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    display: block;
+    margin: 0 15px;
+}
+
+
+/*Skills*/
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+#skills h2,
+#code-style h2 {
+    text-align: center;
+}
+
+.skills__box {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 40px 0 40px 40px;
+    margin: 30px auto;
+    width: 600px;
+    background-color: #363638;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 16px 16px 16px 0px;
+}
+
+.skills__ul,
+.skills__ul1 {
+    margin: 0px 100px;
+}
+
+.skills__box li {
+    list-style-type: none;
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+/* footer */
+
+.footer {
+    height: 90px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#rs-logo {
+    height: 35px;
+    width: 65px;
+    margin-top: 110px;
+}
+
+#github-logo {
+    height: 35px;
+    width: 100px;
+    margin-top: 110px;
+}
+
+.footer div a {
+    padding: 40px;
+}
+
+.footer-content {
+    text-align: center;
+}
